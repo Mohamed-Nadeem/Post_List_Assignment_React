@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import './postLists.css';
+import '../styles/postLists.css';
 
 const PostList = (props) => {
   const {postList, onClick} = props;
@@ -8,13 +8,13 @@ const PostList = (props) => {
   const DOWN = 1;
 
   return (
-      <ul>
+      <ul className="list-group">
         {_.map(postList, item =>{
           return(
-            <li key={item.id} style={{ backgroundColor: item.bgColor }}>
+            <li key={item.id} className="list-group-item post-lists-li">
               <div className="postId">{item.id}</div>
               <div className="postTitle">{item.title}</div>
-              <div className="postArrows">
+              <div className="badge">
                   <a onClick={() => onClick(item.id, UP)}>&#x25B2;</a>
                   <a onClick={() => onClick(item.id, DOWN)}>&#x25BC;</a>
               </div>

@@ -1,0 +1,20 @@
+.jumbotron.text-center {
+    background-color: aqua;
+    border-bottom: 2px black dotted;
+}
+
+.jumbotron.text-center.react-logo {
+    background: aqua url(/static/media/reactLogo.80687d23.png) round 0 0 !important;
+    background-size: 6% !important;
+}
+
+h1.main-title {
+    background-color: bisque;
+    display: inline-block;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.jumbotron {
+    margin-bottom: 0% !important;
+}

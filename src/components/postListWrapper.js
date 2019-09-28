@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PostList from './postList';
 
 class PostListWrapper extends React.Component {

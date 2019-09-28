@@ -1,0 +1,30 @@
+@media (min-width: 576px){
+    .col-sm-4 {
+        max-width: 45.333333% !important;
+        flex: 0 0 44.333333% !important;
+    }
+}
+li.timeTravel-button {
+    display: grid;
+    padding: 1%;
+}
+
+.temper-main-class {
+    background-color: beige;
+    padding: 3%;
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+span.labels-col {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-weight: 500;
+    width: 100% !important;
+}
+
+.container {
+    margin-bottom: 4%;
+}
